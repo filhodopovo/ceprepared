@@ -1,1 +1,8 @@
-Content-Type: application/javascript
+[build]
+  publish = "dist" # Replace with your actual output directory
+  command = "pn run build" # Replace with your actual build command
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
