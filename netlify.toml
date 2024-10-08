@@ -1,6 +1,6 @@
 [build]
   publish = "dist" # Replace with your actual output directory
-  command = "pn run build" # Replace with your actual build command
+  command = "pnpm run build" # Replace with your actual build command
 
 [[headers]]
   for = "/*.js"
