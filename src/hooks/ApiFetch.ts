@@ -5,7 +5,7 @@ const server = import.meta.env.VITE_SERVER_HOST;
 
 export const api = axios.create({
   baseURL: server,
-  timeout: 5000,
+  timeout: 15000,
 });
 
 export async function fetchData<T>(url: string): Promise<T> {
